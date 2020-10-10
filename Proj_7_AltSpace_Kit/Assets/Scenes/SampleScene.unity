@@ -432,6 +432,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConvexMeshColliderAnim
       objectReference: {fileID: 0}
+    - target: {fileID: 4238480428781204300, guid: 5c7250244b139a84f8579b539643ba96,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6281855668217432018, guid: 5c7250244b139a84f8579b539643ba96,
         type: 3}
       propertyPath: m_Controller
@@ -457,12 +462,12 @@ GameObject:
   - component: {fileID: 1969846761}
   - component: {fileID: 1969846760}
   m_Layer: 0
-  m_Name: New Text
+  m_Name: Answer_txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1969846759
 Transform:
   m_ObjectHideFlags: 0
@@ -471,7 +476,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969846758}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.34, y: 4.87, z: 8.74}
+  m_LocalPosition: {x: 0.34, y: 4.74, z: 5.02}
   m_LocalScale: {x: 0.1, y: 0.09, z: 0.1}
   m_Children: []
   m_Father: {fileID: 1498318890}
@@ -487,7 +492,7 @@ TextMesh:
   m_GameObject: {fileID: 1969846758}
   m_Text: Convex Mesh Collider
   m_OffsetZ: 0
-  m_CharacterSize: 12
+  m_CharacterSize: 6
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
